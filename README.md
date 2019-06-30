@@ -2,6 +2,8 @@
 
 This repository is a boilerplate that can be used as a start to a `Node.js` project.
 
+When pushing to your `remote` the tests, test coverage, linting and code formatting will be checked. 
+
 ## Instructions
 
 1 - Fork this repository and clone down your fork.
@@ -17,6 +19,10 @@ This repository is a boilerplate that can be used as a start to a `Node.js` proj
 6 - Write your code on `index.js` or add more files and/or folders to `main`.
 
 7 - Don't forget to update this README with details of your work.
+
+8 - Commit your work when you have written an implementation that passes a test.
+
+9 - Push your work. Before pushing tests, test coverage, linting and code formatting will be checked. Only code that is well formated with passing tests and 100% code coverage can be pushed.
 
 ## Scripts
 
