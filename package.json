@@ -7,7 +7,7 @@
     "test": "jest --coverage && npm run lint",
     "test:watch": "jest --watch",
     "lint": "eslint .",
-    "prepush": "npm test && npm run lint"
+    "prepush": "npm test"
   },
   "repository": {
     "type": "git",
