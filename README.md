@@ -1,4 +1,4 @@
-🎬 # Start Here, a boilerplate repo
+ # 🎬 Start Here, a boilerplate repo
 
 This repository is a boilerplate that can be used as a start to a `Node.js` project without having to worry about tooling.
 
