@@ -28,7 +28,7 @@ This repository is a boilerplate that can be used as a start to a `Node.js` proj
 
 `npm test:watch` - runs the tests in "watch" mode (tests re-run automatically when code is changed)
 
-`npm lint` - runs the linting tool individually
+`npm lint` - runs the linting tool on its own
 
 
 ## Depencies
