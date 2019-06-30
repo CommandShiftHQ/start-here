@@ -18,7 +18,7 @@ This repository is a boilerplate that can be used as a start to a `Node.js` proj
 
 7 - Don't forget to update this README with details of your work.
 
-8 - Commit your work when you have written an implementation that passes a test.
+8 - Commit your work when you have written a test and the implementation that passes it.
 
 9 - Push your work. Before pushing tests, test coverage, linting and code formatting will be checked. Only code that is well formated with passing tests and 100% code coverage can be pushed.
 
