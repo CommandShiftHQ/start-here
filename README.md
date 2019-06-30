@@ -18,6 +18,12 @@ This repository is a boilerplate that can be used as a start to a `Node.js` proj
 
 7 - Don't forget to update this README with details of your work.
 
+## Scripts
+
+`npm t` or `npm run test` - runs the tests, test coverage and linter
+`npm test:watch` - runs the tests in "watch" mode (tests re-run automatically when code is changed)
+`npm lint` - runs the linting tool individually
+
 ## Depencies
 
 node.js (https://nodejs.org/en/)
