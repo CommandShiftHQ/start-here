@@ -1,6 +1,6 @@
 // function example
-const sum = (a, b) => a + b;
+const exampleFunction = (a, b) => a + b;
 
-module.exports = sum;
+module.exports = exampleFunction;
 
 // /////////////////////////

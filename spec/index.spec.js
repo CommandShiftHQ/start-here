@@ -1,8 +1,8 @@
 // unit test example
-const sum = require("../main/index");
+const exampleFunction = require("../main/index");
 
-test("adds 1 + 2 to equal 3", () => {
-  expect(sum(1, 2)).toBe(3);
+test("EXAMPLE test: adds 1 + 2 to equal 3", () => {
+  expect(exampleFunction(1, 2)).toBe(3);
 });
 
 // /////////////////////
