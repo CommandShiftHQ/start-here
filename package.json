@@ -4,10 +4,10 @@
   "description": "mcr.codes start here repo",
   "main": "main/index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage && npm run lint",
     "test:watch": "jest --watch",
     "lint": "eslint .",
-    "prepush": "npm run lint && npm test"
+    "prepush": "npm test && npm run lint && npm"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/MCRcodes/start-here#readme",
   "devDependencies": {
-    "jest": "^24.8.0",
     "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "husky": "^2.7.0",
+    "jest": "^24.8.0",
     "prettier": "^1.18.2"
   },
   "dependencies": {},
