@@ -1,0 +1,9 @@
+module.exports = {
+  verbose: true,
+  coverageThreshold: {
+    global: {
+      functions: 100,
+      lines: 100
+    }
+  }
+};
