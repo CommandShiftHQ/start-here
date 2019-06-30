@@ -1,8 +1,6 @@
-# Start Here, a boilerplate repo
+🎬 # Start Here, a boilerplate repo
 
-This repository is a boilerplate that can be used as a start to a `Node.js` project.
-
-When pushing to your `remote` the tests, test coverage, linting and code formatting will be checked. 
+This repository is a boilerplate that can be used as a start to a `Node.js` project without having to worry about tooling.
 
 ## Instructions
 
