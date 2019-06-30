@@ -4,7 +4,10 @@
   "description": "mcr.codes start here repo",
   "main": "main/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "prepush": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
@@ -23,10 +26,20 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
     }
   }
 }
